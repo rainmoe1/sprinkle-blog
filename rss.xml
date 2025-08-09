@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>雨间星辰</title><description>一起去看烁雨繁星！</description><link>https://sprinkle.moe/</link><language>zh_CN</language><item><title>欢迎来到雨间星辰！</title><link>https://sprinkle.moe/posts/2nd/</link><guid isPermaLink="true">https://sprinkle.moe/posts/2nd/</guid><description>重新介绍一下，这里是“雨间星辰”！</description><pubDate>Mon, 04 Aug 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;图片来源：Milthm&lt;/p&gt;
+&lt;p&gt;画师：&lt;a href=&quot;https://space.bilibili.com/1910873513&quot;&gt;@香香鸡&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原图：&lt;a href=&quot;https://www.bilibili.com/opus/1070524923579990054&quot;&gt;链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;简单介绍&lt;/h2&gt;
+&lt;p&gt;Ciallo～(∠・ω&amp;lt; )⌒☆&lt;/p&gt;
+&lt;p&gt;这里是雨间星辰，一个个人小站。&lt;/p&gt;
+&lt;p&gt;由于站点换了Astro框架，文章不能直接迁移到这里。索性把一些可能过时的内容或修改，或重写。&lt;/p&gt;
+&lt;h2&gt;小站性质&lt;/h2&gt;
+&lt;p&gt;一个混合性博客小站，存放的内容种类会很杂，包括一些技术向、总结、记录、等等。&lt;/p&gt;
+&lt;p&gt;对技术向文章的期望是可以帮助刚开始折腾的“小白”轻松上手，给大佬提供一个新的思路。&lt;/p&gt;
+&lt;p&gt;也希望可以透过日常系的内容展现一段经历。&lt;/p&gt;
+&lt;h2&gt;分站&lt;/h2&gt;
+&lt;p&gt;目前为止没有打算把博客站分拆，只有一个资源站“轻雨档案馆”。&lt;/p&gt;
+&lt;p&gt;原先的博客框架下的站点会以纪念站的形式存档，不再更新。&lt;/p&gt;
+</content:encoded></item><item><title>通知：博客框架迁移</title><link>https://sprinkle.moe/posts/migrate/</link><guid isPermaLink="true">https://sprinkle.moe/posts/migrate/</guid><description>当你看到此文时，本站已更换博客框架</description><pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;小站正在进行博客迁移。本文是使用Astro框架后的一篇测试性文章，旨在验证小站是否可以使用。&lt;/p&gt;
+&lt;h2&gt;1.超链接与图片测试&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://2x.nz&quot;&gt;前往Acofork&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s1.imagehub.cc/images/2025/07/31/a7d3586b4c2518f7755d4eef8c849cf8.jpeg&quot; alt=&quot;这是昔涟！&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;2.视频测试&lt;/h2&gt;
+&lt;p&gt;下面是一个“电信诈骗”视频。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;恭喜你又被骗了。&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;iframe src=&quot;//player.bilibili.com/player.html?isOutside=true&amp;amp;aid=80433022&amp;amp;bvid=BV1GJ411x7h7&amp;amp;cid=137649199&amp;amp;p=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;3.分级表头测试&lt;/h2&gt;
+&lt;p&gt;“这是2026年普通高等学校招生全国统一考试英语科听力部分”&lt;/p&gt;
+&lt;h3&gt;我是三级标题&lt;/h3&gt;
+&lt;h4&gt;我是四级标题&lt;/h4&gt;
+&lt;h5&gt;我是五级标题&lt;/h5&gt;
+&lt;hr /&gt;
+&lt;h2&gt;4.代码块测试&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;import turtle as t
+#直接到达坐标x,y的位置
+def go(x,y) :
+    t.penup()
+    t.goto(x,y)
+    t.pendown()
+#设置画布大小、画笔大小、画笔粗细
+def pen() :
+    t.screensize(0.99, 0.99)
+    t.pensize(10)
+    t.speed(10)
+def main() :
+    pen()
+    pencolor = [&apos;blue&apos;,&apos;black&apos;,&apos;red&apos;,&apos;yellow&apos;,&apos;green&apos;]
+    x = -450
+    y = 0
+    for i in range(5) :
+        if i == 3 :
+            x = -225
+            y = -150
+        if i &amp;lt; 3 :
+            go(x + i * 450,y)
+            t.pencolor(pencolor[i])
+            t.circle(200)
+        else :
+            go(x + ( i - 3 ) * 450, y)
+            t.pencolor(pencolor[i])
+            t.circle(200)
+if __name__ ==  &apos;__main__&apos;:
+    main()
+t.done()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;5.数学公式测试&lt;/h2&gt;
+&lt;p&gt;$$I = \int \rho R^{2} dV$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{equation*}
+\pi
+=3.1415926535
+;8979323846;2643383279;5028841971;6939937510;5820974944
+;5923078164;0628620899;8628034825;3421170679;\ldots
+\end{equation*}
+$$&lt;/p&gt;
+</content:encoded></item><item><title>回顾：2025年春</title><link>https://sprinkle.moe/posts/sum1/</link><guid isPermaLink="true">https://sprinkle.moe/posts/sum1/</guid><description>回顾一下这一年的春季</description><pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;先提及一下“回顾”板块是什么。&lt;/p&gt;
+&lt;p&gt;“回顾”是个人一些生活方面的记录，包括但不限于有趣的事，一些玩梗。更新频率一般为季更，同时也是本人在高三阶段的主要更新内容。&lt;s&gt;（才不是因为没时间）&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;这个板块的文章字数可能大于其他的文章，也许会把博客的日常系提升一些。（至少台长希望可以做到。如果在博客里完全扔技术向内容就可能太严肃了？）&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;总概&lt;/h2&gt;
+&lt;h3&gt;3月&lt;/h3&gt;
+&lt;p&gt;1.“双休”政策落地，周六改自愿自习。&lt;/p&gt;
+&lt;p&gt;2.参加PET-2口语考试，擦线过关。&lt;/p&gt;
+&lt;p&gt;3.购入了自己的ECS与第一个域名。&lt;/p&gt;
+&lt;p&gt;4.考试，不理想的分数。&lt;/p&gt;
+&lt;h3&gt;4月&lt;/h3&gt;
+&lt;p&gt;1.清明节假期，搭建了“雨间星辰”的前身。&lt;/p&gt;
+&lt;p&gt;2.参加学校社团的音乐会。（由于带了平板，&lt;s&gt;顺便&lt;/s&gt;参加了音游比赛。就不在乎名次什么的，开心就好）&lt;/p&gt;
+&lt;p&gt;3.描画，是一张旋宝曲绘。&lt;/p&gt;
+&lt;p&gt;4.高三四模考试，征用了实验室。于是几个自习生从中顺出被遗弃的试题卷。&lt;s&gt;之后几个晚上都被创了。&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;5.一些科目一轮复习，得以重温被忘记的知识。&lt;/p&gt;
+&lt;h3&gt;5月&lt;/h3&gt;
+&lt;p&gt;1.劳动节，相对无所事事，只搭建了个人Ailst。（期中考后大骂自己无能）&lt;/p&gt;
+&lt;p&gt;2.期中考。总体有所进步，但炸掉了所有的语言学科。（感觉自己不配学语言）&lt;/p&gt;
+&lt;p&gt;3.研学。感觉比待学校好太多。&lt;/p&gt;
+&lt;p&gt;4.生日，收到了意外之喜。&lt;/p&gt;
+&lt;p&gt;5.描画，是一张流萤的图。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;内容具象&lt;/h2&gt;
+&lt;h3&gt;双休落地&lt;/h3&gt;
+&lt;p&gt;双休政策早在上世纪末便已经开始实施。因为众所周知的原因，内地高中生很有可能是单休甚至半休。相比之下，个人认为自己需要一些时间用于自习学过的内容与上B站大学。所以总体上个人支持双休政策的落地。&lt;/p&gt;
+&lt;p&gt;总之在这套政策落地后，学校在周末开放教学楼（虽然落地前也开放），早晚自习甚至变成了学生自治，星期六自己申请来校自习。（当然有些班会请家长来监督。）希望可以因此好好安排好时间吧。（听说今年九月高三也要强行双休，如果这样的话，也算是提前适应一下新的环境）&lt;/p&gt;
+&lt;h3&gt;PET考试（口语）&lt;/h3&gt;
+&lt;p&gt;这个考试并非是所有学生都要考的。在我们这里，只有报考英语专业的才会考这个，要求PET-2级及以上成绩合格。&lt;/p&gt;
+&lt;p&gt;不过，在母亲眼里，有考试我就应该参加。所以我听取母亲建议，报考了。结果报考后老师宣布这个只有英语方向的需要这个成绩。&lt;/p&gt;
+&lt;p&gt;好吧好吧，既报之，则考之。。。好在报的是相对简单的2级考，&lt;s&gt;中考过关了就能过。&lt;/s&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;2级口试考试内容分成以下步骤：&lt;/p&gt;
+&lt;p&gt;1.考生进入考场，一般是两人一组。进入考场后会有两位老师进行口试，一位问问题，一位负责打分。&lt;/p&gt;
+&lt;p&gt;进入考场之后，记得把你的答题卡交给老师，之后答题卡不会返还。请检查你的信息是否填对。&lt;/p&gt;
+&lt;p&gt;2.日常对话，相当于用英语寒暄几句。不过需要注意，尽可能用日常用语，使用高级表达可能会使你考试犯错。&lt;/p&gt;
+&lt;p&gt;3.问答环节。老师会给考生下发一张信息卡，一张完整，一张空缺部分信息。拿到空缺信息的卡的同学需要提问空缺的信息，（并不难，但是可能会突然忘词。）&lt;/p&gt;
+&lt;p&gt;在问完问题后，老师会向你提问。问完后，老师将会发下一张信息卡，重复这个环节一次。问答双方交换。&lt;/p&gt;
+&lt;p&gt;当听到：Thank you, this is the end of the test, goodbye.说明考试结束，请自行离开。&lt;/p&gt;
+&lt;p&gt;3级就比较难受了。步骤虽说和2级一致，但是问答换成了插画或者漫画描述。一位考生要在3分钟之内描述这幅插画，另外一位要在这3分钟之后补充内容，限时1分钟。完成之后交换身份。听报考3级的同学说，感觉几乎在临时抱佛脚。“想到什么就说什么。”好在勉强过了关。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;考试的一些建议：&lt;/p&gt;
+&lt;p&gt;1.报考2级的考生，请尽量了自己的回答，简单而精炼，避免卡顿。&lt;/p&gt;
+&lt;p&gt;2.也许你的搭档提了没有答案的问题（至少我考试的时候，我的搭档就提了3个，我也提了1个。估计是用词用错了。），这个时候要么编，要么回答Sorry，I don&apos;t know.如果不做回答可能会失分。&lt;/p&gt;
+&lt;p&gt;3.不要着急，先想清楚再做回答。如果过于卡顿可能会影响你的分数，也会耽误你与后面的同学的时间。&lt;/p&gt;
+&lt;h3&gt;云服务器的购买与域名注册&lt;/h3&gt;
+&lt;p&gt;这种给个人小站的云服务器不需要太高的配置，Wordpress除外。想极端亿点可以使用1核1GB的服务器并部署静态博客。我反正觉得这么做太极端，配置买高了一些，至少这样可以多部署一点静态页面。&lt;/p&gt;
+&lt;p&gt;搭建个人小站建议使用国内有公司的小厂，一般不会跑路，B站上一搜就有这类，只是需要自己甄别。当然也可以选择阿里或者腾讯这种大厂，前提是你有白嫖低价的方案，并且可以过备案关。&lt;/p&gt;
+&lt;p&gt;至于域名，除非你购买的是“moe”这种目前还不能备案的域名，可以在国内注册，但是需要实名认证。至于想在国际公司注册，可以使用Namesilo，Dynadot之类的服务商。&lt;/p&gt;
+&lt;h3&gt;建站（雨间星辰）&lt;/h3&gt;
+&lt;p&gt;考虑到服务器性能，我使用了Hexo，采用kira主题。部署时间还好，没花太多的时间，但是有比较多的坑。&lt;/p&gt;
+&lt;h3&gt;音乐会摊位&lt;/h3&gt;
+&lt;p&gt;学校社团开音乐会，摊位成了次生产物。音游大赛大概就是其中一个。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;前排提示：目前还是一个小众群体，不想看音游的朋友可以跳过。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;比赛比Arcaea与Phigros。&lt;/p&gt;
+&lt;p&gt;我们年级的音游人比较多（我们班尤其多，一个班可以凑出4个），但主要玩Phigros。所以，玩Phi的一大堆，玩Arc的比较少。&lt;/p&gt;
+&lt;p&gt;我是在场唯一一个RKS没超过13的，“入场券”是Luminescence IN acc 98％以上，勉强过线了，结果初级组打的都是Lv.15的歌。（不是，我一个新手村都没出的还来这一出。。。）&lt;/p&gt;
+&lt;p&gt;于是在淘汰后去玩Milthm与Rotaeno去了。。。&lt;/p&gt;
+&lt;p&gt;结束时，社团的朋友送了一个鸠的小牌子与贴纸。这是社团的一位同学画的，感觉还不错。
+&lt;img src=&quot;https://img.sprinkle.moe/2025/06/01/1748747513234.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;描画：旋转音律曲绘&lt;/h3&gt;
+&lt;p&gt;记得是4月的某日，我从旋转音律的官号与维基上下载了曲绘图。&lt;/p&gt;
+&lt;p&gt;之后我便选择其中一张曲绘图。用临摹纸描成了线稿（？）。&lt;/p&gt;
+&lt;p&gt;原图是这个，来自旋转音律维基，通过CC BY-NC-SA 3.0使用。
+原链接：https://wiki.rotaeno.cn/Toys&apos;_Nightlife_Area
+&lt;img src=&quot;https://img.sprinkle.moe/2025/06/01/Songs_toys-nightlife-area.png&quot; alt=&quot;&quot; /&gt;
+下面这个是我描的，保存的不好，有一些已经污浊了。
+&lt;img src=&quot;https://img.sprinkle.moe/2025/06/01/IMG_20250601_114817.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;PS:绝对不是因为晚自习没事做才开始描画。&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;对了，我不是艺术生，水平比较差，请见谅。&lt;/p&gt;
+&lt;p&gt;未来（高考后）打算买一些线稿学习一下，如果有空的话就画一些喜欢的角色吧。&lt;/p&gt;
+&lt;h3&gt;萌备与异次元之旅&lt;/h3&gt;
+&lt;p&gt;萌备其实在建站时就接入了，因此本站是有萌备号的，也可以从异次元之旅( https://travel.moe )进入。&lt;/p&gt;
+&lt;p&gt;现在还在研究怎么在博客里面添加异次元之旅的按钮。&lt;/p&gt;
+&lt;h3&gt;Alist搭建（轻雨档案馆）&lt;/h3&gt;
+&lt;p&gt;五一在研究使用alist建设个人云盘整合与美化。参考了@小明的部落格的教程，并根据个人需求微微修改。
+可以访问(https://al.sprinkle.moe )，看看我分享的内容。&lt;/p&gt;
+&lt;h3&gt;整活：键线式的化学&lt;/h3&gt;
+&lt;p&gt;一个朋友在化学课上想到了一些很有意思的键线式，我认为有苯环的那种味道(比如说苯宝宝不开心)，可以爆改表情包的类型。
+&lt;img src=&quot;https://img.sprinkle.moe/2025/06/01/IMG_20250601_120953.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://img.sprinkle.moe/2025/06/01/IMG_20250601_124904.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;整活：用4个完全一样的数字算出24&lt;/h3&gt;
+&lt;p&gt;起源：有人问DeepSeek，如何使用4个数字e算出24。&lt;/p&gt;
+&lt;p&gt;DeepSeek R1：(ln(e)+ln(e)+ln(e)+ln(e))! = 24&lt;/p&gt;
+&lt;p&gt;于是我们几个开始没事研究起了如何使用4个完全一样的数字算出24。下面是这些思路。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;我们得到：只要使用阶乘，有了4就可以得到24。&lt;/p&gt;
+&lt;p&gt;然后，就出现使用4个π算出24的问题。（额。。。）&lt;/p&gt;
+&lt;p&gt;好吧，直接对4个π取余弦，加起来之后取绝对值，再加阶乘。&lt;/p&gt;
+&lt;p&gt;(|cos(π)+cos(π)+cos(π)+cos(π)|)! = 24&lt;/p&gt;
+&lt;p&gt;那么我们如何把它推广到所有非0实数呢？&lt;/p&gt;
+&lt;p&gt;设实数为a，其绝对值为b&amp;gt;0&lt;/p&gt;
+&lt;p&gt;那么去以b为底，根号下b乘根号下b乘b的对数为4之后就简单了。&lt;/p&gt;
+&lt;p&gt;同理，如果a∈C（复数集），也可以这么操作。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;等等，为什么我们一本正经的胡说八道这么久？&lt;/p&gt;
+&lt;h2&gt;生日&lt;/h2&gt;
+&lt;p&gt;这一天准备请朋友吃饭，但来到学校后，发现书桌上藏了一张纸条。用工整的字迹写了四个字：&lt;/p&gt;
+&lt;p&gt;“&lt;strong&gt;生日快乐！&lt;/strong&gt;”&lt;/p&gt;
+&lt;p&gt;下面是署名。其实我不用看署名也能猜是谁的字，但这个署名让我确定了是谁，顿时感到一种不常有的，且比较强烈的喜悦。&lt;/p&gt;
+&lt;p&gt;有很长一段时间没这么开心了。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;这一天，高三正忙着搞毕业典礼，看着他们高兴的样子，有些感慨：&lt;/p&gt;
+&lt;p&gt;“怎么这么快就要高三了？”&lt;/p&gt;
+&lt;p&gt;高考，离得比较远，可又是那么近。我们已经送走两届高三了。。。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;收好这一张纸条，计划一下中午约朋友们的地点。中午时，得到了几本书当礼物。&lt;/p&gt;
+&lt;p&gt;A：你知道卡芙卡的同行任务的名字叫什么？&lt;/p&gt;
+&lt;p&gt;我：让我想想，&lt;/p&gt;
+&lt;p&gt;A：（递给我一本书）&lt;/p&gt;
+&lt;p&gt;我：What?&lt;/p&gt;
+&lt;p&gt;（A递给我了一本《一封陌生女人的来信》）&lt;/p&gt;
+&lt;p&gt;好好好，这么玩？两天后是A的生日，于是我送了一本《杀死一只知更鸟》。当然，考虑到A是一个流萤厨，我在某宝上定制了一个流萤立牌，也是一个礼物。&lt;/p&gt;
+&lt;p&gt;（别问，问就是穹鬼（我们称呼崩铁玩家的用语）的互相整活）&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;晚自习前，班长先给我打了预防针，说晚上给我庆祝一下。&lt;/p&gt;
+&lt;p&gt;我：可以不这样吗？&lt;/p&gt;
+&lt;p&gt;显然是不可能的。但好在那天还有一个同学和我一天的生日（虽然提前过了），为避免尴尬，唱生日歌的时候我故意对着另一位寿星唱的。。。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;干得漂亮，下次请不要这么干了。&lt;/s&gt;&lt;/p&gt;
+&lt;h3&gt;描画：一张流萤的图&lt;/h3&gt;
+&lt;p&gt;这张图是@QuAn_的图。源动态在这里。(https://www.bilibili.com/opus/1068295968726712321)&lt;/p&gt;
+&lt;p&gt;这是原图。
+&lt;img src=&quot;https://img.sprinkle.moe/2025/06/01/130568884_p0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;我描的在这里。
+&lt;img src=&quot;https://img.sprinkle.moe/2025/06/01/IMG_20250601_150845.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;感觉差距很大，但只能以后再说吧。。。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;未来的计划&lt;/h2&gt;
+&lt;p&gt;马上高三了，趁着首届（可能）高二暑假放满的机会，去好好复习，在B站大学学习一些干货。&lt;/p&gt;
+&lt;p&gt;除此之外，计划考一下DSE（虽说我没有香港身份证，没办法统招香港的高校，不过试一试也无妨，看看香港与内地的差别。）&lt;/p&gt;
+&lt;p&gt;最后，学习一下较高阶的英语，以方便未来读一些英语资料。&lt;/p&gt;
+&lt;p&gt;气象台可能在一段时间内不会频繁更新了，祝各位一切安好！&lt;/p&gt;
+</content:encoded></item><item><title>思路：向不支持的博客主题添加Twikoo作为留言板</title><link>https://sprinkle.moe/posts/twikoo1/</link><guid isPermaLink="true">https://sprinkle.moe/posts/twikoo1/</guid><description>让Twikoo一直可用。</description><pubDate>Fri, 23 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;提示&lt;/h2&gt;
+&lt;p&gt;这是小站在早期建设过程中的一些经历，彼时的站点与现在有诸多不同，仅供参考。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;前排提醒，本文涉及修改主题文件，请提前做好文件备份。否则可能导致博客异常渲染甚至崩溃。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如你所见，气象台使用了Kira-hexo这个主题。主题本身还很好看，一些功能也比较方便（比如bilibili播放器，自带Aplayer）。&lt;/p&gt;
+&lt;p&gt;可是吧，Kira-hexo主题的留言板完全依赖于Github discussion，就内地Github的使用体验吧，只能说是能用，但不太能用的量子叠加态。因此计划自建Twikoo。结果在Twikoo官网上的“前端安装”上发现：Kira原生&lt;strong&gt;不支持&lt;/strong&gt;Twikoo，需要通过CDN引入。&lt;/p&gt;
+&lt;p&gt;于是自己研究了一下Hexo的输出原理，采用了后端自行部署，前端在主题的layout文件里面引入代码的方式，完成了留言板的部署。&lt;/p&gt;
+&lt;h2&gt;1.部署后端&lt;/h2&gt;
+&lt;p&gt;先安装node.js，之后运行这个命令，安装Twikoo后端：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm i -g tkserver
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;之后运行这个命令，启动后端（端口号可以自己选）：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;TWIKOO_PORT=7654 tkserver
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;2.引入前端（通过CDN）&lt;/h2&gt;
+&lt;p&gt;kira主题的layout文件放在主题文件夹的&lt;code&gt;layout&lt;/code&gt;文件夹。我们希望只在文章里引入Twikoo，所以修改 &lt;code&gt;post.ejs&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;观察这个文件的内容，&lt;s&gt;看不懂也没关系&lt;/s&gt;。注意到有一个&lt;code&gt;kira-post-footer&lt;/code&gt;字段，尾随有gitalk与giscus。这是kira自带的两个留言板系统，只要把Twikoo的引入代码放在后面，就可以了。&lt;/p&gt;
+&lt;p&gt;字段修改前：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;	&amp;lt;% if (page.comments){ %&amp;gt;
+	&amp;lt;div class=&quot;kira-post-footer&quot;&amp;gt;
+		&amp;lt;%- partial(&apos;components/comments/gitalk&apos;) %&amp;gt;
+		&amp;lt;%- partial(&apos;components/comments/giscus&apos;) %&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;修改后：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;	&amp;lt;% if (page.comments){ %&amp;gt;
+	&amp;lt;div class=&quot;kira-post-footer&quot;&amp;gt;
+		&amp;lt;%- partial(&apos;components/comments/gitalk&apos;) %&amp;gt;
+		&amp;lt;%- partial(&apos;components/comments/giscus&apos;) %&amp;gt;
+	&amp;lt;div id=&quot;tcomment&quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;script src=&quot;https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script&amp;gt;
+    twikoo.init({
+      envId: &apos;您的环境id&apos;, // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+      el: &apos;#tcomment&apos;, // 容器元素
+      // region: &apos;ap-guangzhou&apos;, // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+      // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+      // lang: &apos;zh-CN&apos;, // 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
+    })
+    &amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果你使用的是kira主题，可直接使用上边的修改部分。如果不是，建议采用上面的思路，寻找文章的layout文件，然后通过观察法在正确位置插入twikoo的引入代码。&lt;/p&gt;
+&lt;p&gt;由于修改的是主题代码，在更新时会覆盖修改好的文件，因此每更新一次就需要修改一次文件，比较麻烦。如果有条件，可以向主题作者提交issue，或者贡献项目代码。&lt;/p&gt;
+&lt;h2&gt;3.参考内容&lt;/h2&gt;
+&lt;p&gt;1.Twikoo官方文档。(https://twikoo.js.org/frontend.html)&lt;/p&gt;
+</content:encoded></item><item><title>教程向：使用acme.sh全自动申请免费SSL证书</title><link>https://sprinkle.moe/posts/acme1/</link><guid isPermaLink="true">https://sprinkle.moe/posts/acme1/</guid><description>让你免费自动申请SSL证书</description><pubDate>Sun, 11 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;当我们拥有属于自己的ECS时，建站就成了一件重要且必要的事。由于安全需要，使用https需要SSL证书。对于团队来说，购买证书的费用并不算多。可对于个人站点来说，一台2H2G的ECS只要最多￥200+，再花费近百元购入证书多多少少有点不值得。&lt;/p&gt;
+&lt;p&gt;而acme.sh这个开源项目成功地完成了免费且自动更新证书的工作，对于个人网站来说何乐而不为呢？下文将介绍如何优雅地使用acme.sh及其衍生项目实现证书自由。&lt;/p&gt;
+&lt;p&gt;下面是acme.sh的Github项目地址：( &lt;a href=&quot;https://github.com/acmesh-official/acme.sh&quot;&gt;https://github.com/acmesh-official/acme.sh&lt;/a&gt; )&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;0.准备工作&lt;/h2&gt;
+&lt;p&gt;一个域名(建议一级域名，二级域名建议使用类似于 .com.cn 这样的)&lt;/p&gt;
+&lt;p&gt;一台ECS，系统使用Linux。&lt;/p&gt;
+&lt;p&gt;可以远程控制ECS的环境。&lt;/p&gt;
+&lt;p&gt;（可选）一个Linux管理面板，推荐1Panel。（因为开源）&lt;/p&gt;
+&lt;p&gt;如果ECS在中国大陆，可能需要使用Github的镜像站。&lt;/p&gt;
+&lt;p&gt;注：如果你正在使用宝塔/1Panel之类的面板，这些产品自带了acme.sh程序并写了好用的前端，可直接跳过这些使用指令的内容，享受GUI的美好。&lt;/p&gt;
+&lt;h2&gt;1.安装acme.sh脚本&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;curl https://get.acme.sh | sh -s email=my@example.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;wget -O -  https://get.acme.sh | sh -s email=my@example.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/acmesh-official/acme.sh.git
+cd ./acme.sh
+./acme.sh --install -m my@example.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以上指令三选一，“&lt;a href=&quot;mailto:my@example.com&quot;&gt;my@example.com&lt;/a&gt;”填写你的可用邮箱。&lt;/p&gt;
+&lt;p&gt;安装完成后，acme.sh程序就安装到&lt;code&gt;~/.acme.sh&lt;/code&gt;下了。这时，请退出登录，或者运行&lt;code&gt;source ~/.bashrc&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;2.更换CA&lt;/h2&gt;
+&lt;p&gt;acme.sh默认使用ZeroSSL的证书。虽说使用这一家的证书也没什么问题，可是ZeroSSL的服务在&lt;s&gt;地球范围内&lt;/s&gt;不稳定，这显然会影响到自动续签证书。&lt;/p&gt;
+&lt;p&gt;如果你没有闲到一天更新∞个证书，这边建议更换Let&apos;s Encrypt，虽说这一家限制签发证书数量，但好在服务稳定。输入以下命令即可。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;acme.sh --set-default-ca --server letsencrypt,
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;3.申请证书&lt;/h2&gt;
+&lt;p&gt;先确定好使用什么方法申请。acme.sh支持使用DNS验证、http验证。&lt;/p&gt;
+&lt;h3&gt;使用http验证。&lt;/h3&gt;
+&lt;p&gt;请先确定网站在本地的根目录。之后输入下面的指令。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;acme.sh --issue -d mydomain.com -d www.mydomain.com --webroot /home/wwwroot/mydomain.com/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;对于使用了apache、nginx的机器，可以分别使用以下指令。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;acme.sh --issue -d mydomain.com --apache
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;acme.sh --issue -d mydomain.com --nginx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果机器的80端口没有使用，你甚至可以使用这行命令，使acme.sh伪装成一个服务端监听80端口。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;acme.sh --issue -d mydomain.com --standalone
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;使用DNS验证&lt;/h3&gt;
+&lt;p&gt;目前已知1Panel使用了这套方案。这套方案的绝妙之处就在于可以使用域名解析服务商的api完成全自动验证。&lt;/p&gt;
+&lt;p&gt;在这里以阿里云为例，可参见&lt;a href=&quot;https://help.aliyun.com/zh/ram/user-guide/create-an-accesskey-pair&quot;&gt;阿里云官方的链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;首先登录阿里云官网，设置RAM访问。前往这个链接:&lt;a href=&quot;https://link.orcy.net.cn/?url=https://usercenter.console.aliyun.com/#/manage/ak&quot;&gt;https://usercenter.console.aliyun.com/#/manage/ak&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;随后在身份管理-用户中创建用户。
+登录名称填写记得住的，勾选永久AccessKey访问，完成后记录Access Key与Secret Key。之后给刚刚创建的RAM授予AliyunDNSFullAccess权限。&lt;/p&gt;
+&lt;p&gt;在ECS上运行以下命令以记录RAM用户数据，将Access Key填入_your_ali_key处，将Secure Key填入_your_ali_secure_key处。此命令不会输出内容。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;export Ali_Key=&quot;_your_ali_key&quot;
+export Ali_Secret=&quot;_your_ali_secure_key&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这时，再运行以下命令，将“ example.com ”换成你的域名，以完成签发工作。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;acme.sh --issue --dns dns_ali -d example.com -d *.example.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;整个签发过程将耗时约5~10分钟。如果你使用其他厂商的服务，请访问  &lt;a href=&quot;https://github.com/acmesh-official/acme.sh/wiki/dnsapi&quot;&gt;https://github.com/acmesh-official/acme.sh/wiki/dnsapi&lt;/a&gt; ，查看是否支持。&lt;/p&gt;
+&lt;h2&gt;4.使用&lt;/h2&gt;
+&lt;p&gt;证书申请成功后，将保存在&lt;code&gt;~/.acme.sh/&lt;/code&gt;下的对应域名文件夹，请将它们拷贝出来，再使用。&lt;/p&gt;
+&lt;h2&gt;5.更新证书&lt;/h2&gt;
+&lt;p&gt;证书的有效期为 90 天，acme.sh 会 60 天更新一次。&lt;/p&gt;
+&lt;p&gt;如果希望强制更新，执行：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;acme.sh --renew -d example.com --force
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;6.自动升级acme.sh程序&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;acme.sh --upgrade --auto-upgrade 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;7.对于使用1Panel之类管理面板的用户&lt;/h2&gt;
+&lt;p&gt;首先在商店安装OpenResky。确保有一个运行的网站后点击侧边栏的“网站-证书”。
+&lt;img src=&quot;https://s1.imagehub.cc/images/2025/05/13/914dc1dd8b2fab4d90937281cb944c56.png&quot; alt=&quot;这个界面&quot; /&gt;
+这个界面里，先点击Acme账户，选择创建。填写你的可用邮箱，账户类型选择Let&apos;s Encrypt。
+&lt;img src=&quot;https://s1.imagehub.cc/images/2025/05/13/fcf261cee4155afae024edac73041b99.png&quot; alt=&quot;&quot; /&gt;
+之后点击DNS账户，选择创建。名称随意，类型请选择你的域名解析商。
+&lt;img src=&quot;https://s1.imagehub.cc/images/2025/05/13/fb97a7d5f418a3e7e52ded7132881e98.png&quot; alt=&quot;&quot; /&gt;
+以上面阿里云为例，填写获取的Access Key与Secret Key。&lt;/p&gt;
+&lt;p&gt;之后点击申请证书，选择创建的网站、Acme账户与DNS账户，选择自动续签。
+&lt;img src=&quot;https://s1.imagehub.cc/images/2025/05/13/a75f04402388e9d35f8950bd2e646ef5.png&quot; alt=&quot;&quot; /&gt;
+点击确认，等待完成签发。这个过程将耗时5~10分钟。如果使用默认DNS服务器，将会把时间拉长，取决于你在DNS服务商的设置。&lt;/p&gt;
+&lt;p&gt;拿到证书后，回到网站管理界面，点击配置-https。&lt;/p&gt;
+&lt;p&gt;勾选启用https，SSL选择刚刚申请好的证书，Acme账户与证书选择之前注册好的，其他默认。&lt;/p&gt;
+&lt;p&gt;点击保存，这时理论可以看到成功启用https。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;acme.sh其实还是很好用的（如果懂指令）&lt;/p&gt;
+&lt;p&gt;不过在这个可以使用GUI的时代，能够避免指令就尽量少用吧。&lt;/p&gt;
+</content:encoded></item><item><title>记录：使用轻量级邮局pmail搭建个人邮箱</title><link>https://sprinkle.moe/posts/pmail1/</link><guid isPermaLink="true">https://sprinkle.moe/posts/pmail1/</guid><description>有条件的话可以自己试着搭建邮箱</description><pubDate>Sat, 12 Apr 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;提示&lt;/h2&gt;
+&lt;p&gt;如果你没有折腾能力，或者不愿折腾，建议配置域名邮箱。&lt;/p&gt;
+&lt;p&gt;限于台长自己现用的VPS限制（新买的VPS封25端口），目前已停用此项目。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;一直以来，都在考虑要一个自己域名的邮局，不过如果只是从邮箱网站上解析自己的域名还不够折腾。在开源项目里看见了Pmail这个轻量化开源邮局，遂&lt;s&gt;一时兴起&lt;/s&gt;,玩了玩这个项目。虽说界面&lt;s&gt;过于精简&lt;/s&gt;，不过对于一个轻量的vps来说，还是挺够用的。&lt;/p&gt;
+&lt;h2&gt;一.项目介绍&lt;/h2&gt;
+&lt;p&gt;Pmail是一个部署简单，轻量化的个人邮箱服务端。根据作者在Github上的&quot;readme&quot;文件，本服务端可以在CPU为1核，512MB运行内存的vps上正常工作。&lt;s&gt;不会是从微软Azure云白嫖的吧？&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;相比其他的邮箱软件，Pmail较为简单，当然也会有功能缺失。比如对ThunderMail的imap支持就不好。&lt;s&gt;但是体积15MB，运存占用10+MB的邮局还要什么自行车&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;项目地址:(https://github.com/Jinnrry/PMail)&lt;/p&gt;
+&lt;h2&gt;二.部署前的准备&lt;/h2&gt;
+&lt;p&gt;1.一个拥有固定公网IP的服务器，要求开放25端口&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;腾讯云，阿里云等大厂锁25端口，因此请向客服提交工单申请。一些厂家有概率不能通过。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;2.一个域名。&lt;/p&gt;
+&lt;p&gt;建议使用.com，.cn，.net等著名的一级域名与.com.cn类型的二级域名。不要使用.tk之类的免费域名与二级域名。&lt;/p&gt;
+&lt;p&gt;3.一个Nginx代理服务端。&lt;/p&gt;
+&lt;p&gt;我使用的是1Panel+OpenResky。你也可以使用nginx proxy manager，但是要保证监听80与443端口&lt;/p&gt;
+&lt;p&gt;4.Docker容器(非必须，不使用Docker的前提是只在本服务器上运行Pmail)&lt;/p&gt;
+&lt;p&gt;注意：如果服务器设置于中国大陆，那么邮箱需要备案，且安装Docker时需选择内地镜像源以提速。&lt;/p&gt;
+&lt;h2&gt;三.部署安装&lt;/h2&gt;
+&lt;p&gt;注：本方案下，80与443端口由Nginx占用，故映射Pmail的80与443端口到其他端口。这里以8680映射80，8643映射443。你可以自行选择端口来映射。&lt;/p&gt;
+&lt;p&gt;SSL证书交由1Panel自带的证书签发工具完成。&lt;/p&gt;
+&lt;p&gt;本安装方式参考官方通过Docker的&lt;a href=&quot;https://github.com/Jinnrry/PMail/blob/master/README_CN.md&quot;&gt;部署方法&lt;/a&gt;，并做出一些修改。&lt;/p&gt;
+&lt;h3&gt;1.下载&lt;/h3&gt;
+&lt;p&gt;在你希望安装Pmail的文件夹中使用Docker运行&lt;code&gt;docker pull ghcr.io/jinnrry/pmail:latest&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;也可以前往项目地址下载对应版本。&lt;/p&gt;
+&lt;h2&gt;2.安装&lt;/h2&gt;
+&lt;p&gt;我们这里选择使用Docker安装。下方的指令中的8680与8643可改为自己选择的端口。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;docker run -p 25:25 -p 8680:80 -p 8643:443 -p 110:110 -p 465:465 -p 995:995 -p 993:993 -v $(pwd)/config:/work/config ghcr.io/jinnrry/pmail:latest
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你服务器开启了防火墙，你需要打开25、80、110、443、465、995、993与你选择的端口&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;3.反向代理与证书设置&lt;/h3&gt;
+&lt;p&gt;看到这里，有人会问，为什么先设置这个？因为后面要手动配置SSL证书（我们使用了非80/443端口），先一步设置好SSL可以更好的完成配置。&lt;/p&gt;
+&lt;p&gt;这里以1Panel的网站管理功能为例，这个功能依赖于OpenResky。&lt;/p&gt;
+&lt;p&gt;首先，在“网站-网站”功能中选择创建，选择反向代理。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://free.picui.cn/free/2025/04/13/67fb62928b515.jpg&quot; alt=&quot;像这样&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;然后按上面邮箱的配置填写信息。&lt;/p&gt;
+&lt;p&gt;之后点击“网站-证书”，申请免费证书。如果你有证书，签发好后上传即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://free.picui.cn/free/2025/04/13/67fb6292895f7.jpg&quot; alt=&quot;如下&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;这里先创建一个Acme账户，填写你的邮箱，类型随意选，推荐Let&apos;s Encrypt。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://free.picui.cn/free/2025/04/13/67fb629285af6.jpg&quot; alt=&quot;看这里&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;随后登录你的DNS账号，这个请登录你的域名服务商以创建。&lt;/p&gt;
+&lt;p&gt;然后点击申请证书，填写你的域名信息（包括主域名，邮箱网页端域名，smtp，pop，imap），选择Acme账户与DNS账户，选择自动续签并填写你的域名服务商的DNS。&lt;/p&gt;
+&lt;p&gt;设置证书导出目录为./config/ssl，注意这是以Pmail目录为相对位置的。&lt;/p&gt;
+&lt;p&gt;点击申请，之后只需耐心等待。首次签发需要10分钟左右，以后就会快上不少，续签一般1分钟就可以完成。&lt;/p&gt;
+&lt;h3&gt;4.配置Pmail&lt;/h3&gt;
+&lt;p&gt;打开浏览器，进入IP+端口，随提示完成配置。&lt;/p&gt;
+&lt;p&gt;注意&lt;/p&gt;
+&lt;p&gt;由于我们在上一步选择了非80/443端口作为前台运行端口，因此SSL配置需要选择手动配置，&lt;/p&gt;
+&lt;p&gt;这时，应当选用已经配置好的SSL证书而不是Pmail的自动配置，选择我们在第3步签发的证书，区分开公钥与私钥。&lt;/p&gt;
+&lt;h3&gt;5.修改配置文件&lt;/h3&gt;
+&lt;p&gt;配置文件位置为./config/config.json。在Pmail目录下运行这行命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo nano config/config.json
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;修改这些内容：&lt;/p&gt;
+&lt;p&gt;httpsEnabled 改成 2&lt;/p&gt;
+&lt;p&gt;sslType 改成 1&lt;/p&gt;
+&lt;p&gt;spamFilterLevel 改为 2，（这个参数可以阻止一些人冒用你的信息发邮箱。）&lt;/p&gt;
+&lt;p&gt;登录Pmail，看看是否可以正常访问。&lt;/p&gt;
+&lt;p&gt;如果可以正常访问，说明没有大问题，可以测试发件了。&lt;/p&gt;
+&lt;h2&gt;四.后续工作&lt;/h2&gt;
+&lt;p&gt;这里主要是一些修修补补的工作，可以避免一些收发件问题。&lt;/p&gt;
+&lt;h3&gt;1.邮箱得分测试&lt;/h3&gt;
+&lt;p&gt;这里建议对你的邮箱进行得分测试，分数尽可能要高，并根据扣分点判断哪些东西没有配置或者配置出错。&lt;/p&gt;
+&lt;p&gt;比如使用这个网站(https://www.mail-tester.com)&lt;/p&gt;
+&lt;p&gt;向网站提供的测试邮箱发一份正常的邮件，等待结果。&lt;/p&gt;
+&lt;p&gt;这么做可以避免因配置问题将邮件发进朋友的垃圾箱。&lt;/p&gt;
+&lt;p&gt;以下是配置无效时的解决方案。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;2.配置DKIM&lt;/h3&gt;
+&lt;p&gt;很玄乎，有时候Pmail给出的DKIM公私钥会不匹配。这种情况常常会发生在自定义使用SSL证书时的域名错误识别。&lt;/p&gt;
+&lt;p&gt;解决方法是重新生成一对公私钥。&lt;/p&gt;
+&lt;p&gt;首先，我们选择一个DKIM工具生成工具，把主域名贴进去，得到公钥与私钥。&lt;/p&gt;
+&lt;p&gt;随后，把公钥写入&lt;code&gt;dkim.public&lt;/code&gt;，把私钥写入&lt;code&gt;dkim.priv&lt;/code&gt;。这两个文件都在&lt;code&gt;./config/dkim&lt;/code&gt;中。&lt;/p&gt;
+&lt;p&gt;之后，将DNS记录中的&lt;code&gt;default._domainkey&lt;/code&gt;改为你生成的公钥，并妥善保管好私钥。等待一会儿，让解析记录传播。&lt;/p&gt;
+&lt;h3&gt;3.配置rDNS&lt;/h3&gt;
+&lt;p&gt;rDNS，即反向DNS，是一套可以验证发件服务器的机制，负责将IP地址解析成域名。&lt;/p&gt;
+&lt;p&gt;由于rDNS管理权限不在域名服务商，而在于运营商。因此只能通过向你的运营商提交申请，要求为你的IP绑定域名。&lt;/p&gt;
+&lt;p&gt;如果你是云服务器，可以申请工单，让他们帮你完成。已知阿里云的这项业务免费。&lt;/p&gt;
+&lt;p&gt;提示：一个IP只能绑一个域名的rDNS解析。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;当然，如果你只是玩玩而已，也无所谓了&lt;/s&gt;&lt;/p&gt;
+&lt;h3&gt;4.配置DMARC&lt;/h3&gt;
+&lt;p&gt;这是一种防止攻击人使用假冒域名，并阻止执行退信攻击的方式。&lt;/p&gt;
+&lt;p&gt;配置的前提是已经设置了SPF记录，&lt;s&gt;当然你也应当在配置Pmail时完成了这项工作&lt;/s&gt;。&lt;/p&gt;
+&lt;p&gt;你需要按以下形式填写解析记录。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;操作解析的域名&lt;/th&gt;
+&lt;th&gt;解析类型&lt;/th&gt;
+&lt;th&gt;解析记录值&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;_dmarc&lt;/td&gt;
+&lt;td&gt;TXT&lt;/td&gt;
+&lt;td&gt;v=DMARC1; p=quarantine; rua=mailto:dmarc_report@example.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;其中，p的值可以为none，quarantine与reject。&lt;code&gt;rua=mailto:&lt;/code&gt;为发送report信息的邮箱地址。在这后面接一个可用邮箱，可以接收来自收信方的汇总报告。&lt;/p&gt;
+&lt;p&gt;p=none：放行所有来自您域名的邮件，即使邮件未通过DMARC验证。&lt;/p&gt;
+&lt;p&gt;p=quarantine：隔离一部分邮件，通常为放入垃圾箱。配合pct参数（默认为100），设置未通过DMARC验证的邮件中隔离的百分比。&lt;/p&gt;
+&lt;p&gt;p=reject：执行严格拒绝，拒绝所有未通过身份验证的邮件。&lt;/p&gt;
+&lt;h2&gt;五.总结&lt;/h2&gt;
+&lt;p&gt;总的来说，Pmail是个值得一试的项目。自动SSL证书，占用又低，推荐想自建邮局的朋友使用。&lt;/p&gt;
+&lt;h2&gt;六.致谢&lt;/h2&gt;
+&lt;p&gt;1.Jinnrry(https://github.com/Jinnrry)&lt;/p&gt;
+&lt;p&gt;感谢作者的开源精神。&lt;/p&gt;
+&lt;p&gt;2.seektao。我的部署参考了这篇文章。(https://blog.seektao.cc/p/pmail/)&lt;/p&gt;
+</content:encoded></item><item><title>教程向：远程神器screen的简单指令</title><link>https://sprinkle.moe/posts/screen/</link><guid isPermaLink="true">https://sprinkle.moe/posts/screen/</guid><description>让你的SSH终端支持多任务与后台运行</description><pubDate>Sat, 05 Apr 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;先前的文章提到了使用screen来后台挂载Hexo程序来保活。这里介绍一下常用的指令，便于服务器远程运维。&lt;/p&gt;
+&lt;h2&gt;0.概念与安装&lt;/h2&gt;
+&lt;h4&gt;概念解释&lt;/h4&gt;
+&lt;p&gt;默认窗口：指的是开机时进入或者SSH远程时进入的终端。&lt;/p&gt;
+&lt;p&gt;screen会话：指的是通过screen指令创建的终端界面。本质上只是一个进程。&lt;/p&gt;
+&lt;p&gt;子窗口：一个screen会话下可以有多个窗口。但这里只是为了方便运行服务端，故后文操作中screen会话一般只有1个子窗口。&lt;/p&gt;
+&lt;h4&gt;检查安装&lt;/h4&gt;
+&lt;p&gt;在默认窗口输入&lt;code&gt;screen&lt;/code&gt;查看是否安装。&lt;/p&gt;
+&lt;p&gt;如果没有安装，在终端执行：&lt;/p&gt;
+&lt;p&gt;对于debian系&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt install screen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;对于fedora系&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo yum install screen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;命令运行格式:&lt;code&gt;screen -[指令] &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;以下是一些常用指令。&lt;/p&gt;
+&lt;h2&gt;1.创建screen会话&lt;/h2&gt;
+&lt;p&gt;在默认窗口下输入以下指令。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;screen -S mc # 创建一个screen会话，名称为mc。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这时，会自动进入screen会话。但因为界面问题，我们看不出来。&lt;/p&gt;
+&lt;p&gt;之后，我们就可以像操作一般的终端一样输入指令了。&lt;/p&gt;
+&lt;h2&gt;2.列出已有的session&lt;/h2&gt;
+&lt;p&gt;以上面为例，假设有mc这个screen会话（官方叫session）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;screen -ls
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;3.Ctrl+A组合键对screen的操作&lt;/h2&gt;
+&lt;p&gt;screen会话中，按下Ctrl+A，进入设置（注意没有界面显示。），加上下面的按键，有以下效果：&lt;/p&gt;
+&lt;p&gt;c 在本会话下创建新的screen窗口
+d 离开本会话，回到默认窗口（此时会话状态为dettached）
+a 在最近的两个窗口间切换
+k 关闭当前窗口。&lt;/p&gt;
+&lt;h2&gt;4.回到已离开的会话&lt;/h2&gt;
+&lt;p&gt;假设进入会话mc。&lt;/p&gt;
+&lt;p&gt;一般情况下，会话退出时为dettached状态。&lt;/p&gt;
+&lt;p&gt;直接输入&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;screen -r mc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果&lt;s&gt;出现了二般的情况&lt;/s&gt;，会话处于attached状态，则先输入下面的指令，使会话进入dettached状态，才可以进入。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+screen -d mc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;5.关闭会话&lt;/h2&gt;
+&lt;p&gt;假设要关闭会话mc，&lt;/p&gt;
+&lt;p&gt;在screen会话中，输入exit或者按下Ctrl+d退出即可。&lt;/p&gt;
+&lt;p&gt;或者，输入&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;screen -X -S mc quit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;6.清理无用会话&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;screen -wipe
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;7.在一个会话中运行特定程序&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;screen -S mc nano eula.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如上方，直接在创建会话的指令后面接正常的指令。&lt;/p&gt;
+&lt;p&gt;注意：运行在会话的软件退出后，会话随即关闭。&lt;/p&gt;
+</content:encoded></item></channel></rss>
